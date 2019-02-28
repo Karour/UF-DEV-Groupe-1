@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="nullifier.css">
+        <link rel="stylesheet" href="CSS/sign.css">
+        <title>Connexion</title>
+    </head>
+    <body>
+    <form action="signin.html" method="post">
+         <label>Genre :</label>
+         <select name="genre">
+         <option value="ne">-----Sélectionner-----</option>
+         <option value="h">Homme</option>
+         <option value="f">Femme</option>
+         <option value="ne">Ne souhaite pas préciser</option>
+         </select>
+        <label for="firstname">Prénom :</label>
+        <input type="text" name="firstname" value="" placeholder="Prénom" required>
+        
+        <label for="name">Nom :</label>
+        <input type="text" name="name" value="" placeholder="Nom" required>
+        
+        <label for="birthdate" required>Date de naissance :</label>
+        <input type="date" name="birthdate" value="" placeholder="dd/mm/yyyy">
+        
+        <label for="email">Adresse mail :</label>
+        <input type="email" name="mail" value="" placeholder="Adresse Mail">
+
+        <label for="tel">Téléphone :</label>
+        <input type="telephone" name="tel" value="" placeholder="Numéro de télephone" required>
+        
+        <label for="mdp">Mot de passe :</label>
+        <input type="password" name="mdp" value="" placeholder="Mot de passe" required>
+        
+        <label for="adresse">Adresse :</label>
+        <input type="text" name="adress" value="" placeholder="Numéro et nom de la rue">
+        
+        <label for="zipcode">Code Postal:</label>
+        <input type="number" name="zipcode" value="" placeholder="Code Postal">
+        
+        <label for="city">Ville :</label>
+        <input type="text" name="city" value="" placeholder="Ville">
+        
+        <label>Précision sur l'adresse :</label>
+        <textarea name="name" rows="3" cols="80"></textarea>
+        
+        <input type="checkbox" name="cgu"> <div id="jlc">J'acceptes les conditions</div>
+        <br>
+        <br>
+        <div class="but">
+        <input type="submit" value="Envoyer" classe="button"/>
+        <input type="reset" value="Annuler" classe="button"/>
+        <a href="index.html"><button type="button" name="button">Acceuil</button></a></div>
+        <br>
+    </form>
+    
+    
+
+    </body>
+</html>
+    

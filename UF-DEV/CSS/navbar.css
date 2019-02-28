@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+}
+header nav{
+  height: 50px;
+  background-color: #6f1d1f;
+  text-align: center;
+}
+header nav ul li a:hover{
+    background-color: antiquewhite; 
+    color: #490204;
+    font-size: 1.2em;
+    border-radius: 20px 0px 20px 0px;
+    text-transform: uppercase;
+
+}
+header nav ul li a{
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: 20px;
+    margin: center;
+    height: 100%;
+    display: inline-flex;
+    align-items: center;
+    padding: 0 40px;
+    transition: background 0.5s linear;
+    font-family: 'Slabo 27px', serif;
+    font-weight: bold;
+} 
+header nav ul li{ 
+    display: inline-block;
+    height: 100%;
+    border-right: 2px solid beige;
+    margin: 0;
+    border-radius: 20px 0px 20px 0px;
+    list-style-type:none;
+}
+
+header nav ul{
+    height: 100%;
+}
+header nav div.right {
+    position: absolute;
+    height: 40px;
+    top: 2px;
+    margin-left: 1200px;
+}
+
+header nav div.right img {
+    height: 100%;
+}
+
+header nav div.right .login {
+    position: absolute;
+    right: 0;
+    top: 100%;
+    padding: 8px 16px;
+    background-color: #6f1d1f;
+    /* animation: iliketomoveit 5s infinite; */
+}
+header nav div.right:not( :hover ) .login {
+    display: none;
+}
+header nav ul li ul{
+    display: none;
+    background-color: black;
+    list-style-type: none;
+    text-decoration: none; 
+}
+
+header nav ul li:hover ul {
+ display:block;
+ }
+header nav li:hover ul li {
+ float:none;
+ }
+header nav li ul{
+ position:absolute;
+ height: 50px;
+ width: 50px;
+ }
+header nav li ul li a { 
+    background-color: black;
+    list-style-type: none;
+    color: red;
+}
+label{
+    list-style-type: none;
+    color: black;
+    background-color: blue;
+    font-size: 0.5em;
+}

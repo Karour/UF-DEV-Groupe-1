@@ -1,0 +1,67 @@
+body{
+    margin: 20px;
+    background-color: #6f1d1f;
+}
+form{
+    text-align: center;
+}
+form label{
+    padding: 2px;
+    margin-left: 545px;
+    color: antiquewhite;
+    display: block;
+    width: 150px;
+    
+}
+ 
+}
+form input{
+    padding: 3px;
+    margin: 3px;
+    background-color: antiquewhite;
+}
+textarea{
+    background-color: antiquewhite;
+}
+button{
+    padding: 3px;
+    margin: 3px;
+    background-color: antiquewhite;
+}
+#jlc{
+    color: antiquewhite;
+    position: absolute;
+    top: 545px;
+    margin-left: 570px;
+}
+input{
+    display: block;
+    margin-left: 545px;
+}
+
+form a button{
+    display: block;
+    margin-left: 545px;
+    background-color: black;
+    color: antiquewhite;
+}
+
+form div.but a{
+    margin: 0;
+    padding: O;
+}
+form div.but a button{
+    position: absolute;
+    margin: 0;
+    padding: O;
+    margin-left: 100px
+}
+form div.but input{
+    padding: 0;
+    margin: 0;
+}
+form div.but{
+    display: inline-flex;
+    padding: 0;
+    width: 10;
+}
